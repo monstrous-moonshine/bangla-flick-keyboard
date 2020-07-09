@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Bangla Keyboard</string>
+    <string name="simple_ime">Bangla (Flick)</string>
+    <string name="subtype_bn_BD">Bangla (BD)</string>
+</resources>

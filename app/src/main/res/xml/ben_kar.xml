@@ -1,0 +1,37 @@
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyWidth="20%p"
+    android:horizontalGap="0px"
+    android:verticalGap="0px"
+    android:keyHeight="48dp"
+    >
+    <Row>
+        <Key android:codes="-2" android:keyLabel="ABC" android:keyEdgeFlags="left"/>
+        <Key android:codes="2509,2437" android:keyLabel="্"/>
+        <Key android:codes="2494,2495,2497,2503,2507" android:keyLabel="া"/>
+        <Key android:codes="2499,2496,2498,2504,2508" android:keyLabel="ৃ"/>
+        <Key android:codes="-5" android:keyIcon="@drawable/sym_keyboard_delete" android:keyEdgeFlags="right" android:isRepeatable="true"/>
+    </Row>
+    <Row>
+        <Key android:codes="-5001" android:keyLabel="আ" android:keyEdgeFlags="left"/>
+        <Key android:codes="2453,2454,2455,2456,2457" android:keyLabel="ক"/>
+        <Key android:codes="2458,2459,2460,2461,2462" android:keyLabel="চ"/>
+        <Key android:codes="2463,2464,2465,2466,2467" android:keyLabel="ট"/>
+        <Key android:codes="32" android:keyIcon="@drawable/sym_keyboard_space" android:keyEdgeFlags="right"/>
+    </Row>
+    <Row>
+        <Key android:codes="-5002" android:keyLabel="১" android:keyEdgeFlags="left"/>
+        <Key android:codes="2468,2469,2470,2471,2472" android:keyLabel="ত"/>
+        <Key android:codes="2474,2475,2476,2477,2478" android:keyLabel="প"/>
+        <Key android:codes="2479,-5003,0,2482" android:keyLabel="য"/>
+        <Key android:codes="2551,44,63,33" android:keyLabel="।" android:keyEdgeFlags="right"/>
+    </Row>
+    <Row android:rowEdgeFlags="bottom">
+        <Key android:codes="-101" android:keyIcon="@drawable/sym_keyboard_language_switch"
+            android:keyEdgeFlags="left"/>
+        <Key android:codes="2480,-5004,2524,-5005,2525" android:keyLabel="র"/>
+        <Key android:codes="2486,2487,2488,2489" android:keyLabel="শ"/>
+        <Key android:codes="2527,2510,2434,2435,2433" android:keyLabel="য়"/>
+        <Key android:codes="-4" android:keyIcon="@drawable/sym_keyboard_return"
+            android:keyEdgeFlags="right"/>
+    </Row>
+</Keyboard>
